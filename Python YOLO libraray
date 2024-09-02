@@ -1,0 +1,15 @@
+YOLO (You Only Look Once) is a popular real-time object detection system. Here are the key points:
+
+Single Neural Network: YOLO uses a single convolutional neural network (CNN) to predict bounding boxes and class probabilities directly from full images in one evaluation.
+
+Speed: It is known for its speed, making it suitable for real-time applications. YOLO can process images at high frame rates.
+
+Grid Division: The image is divided into an 
+S × S
+S×S grid. Each grid cell predicts bounding boxes and confidence scores for objects whose center falls within the cell.
+
+Bounding Boxes: YOLO predicts a fixed number of bounding boxes per grid cell and assigns class probabilities to each box.
+
+Versions: There are several versions of YOLO, including YOLOv3, YOLOv4, and the latest YOLOv5, each improving on speed, accuracy, and usability.
+
+Applications: YOLO is widely used in various applications, including surveillance, autonomous driving, and robotics.
